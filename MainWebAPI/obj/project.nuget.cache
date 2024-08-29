@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qAp87fSsolo=",
+  "dgSpecHash": "iDUt2W+LNnU=",
   "success": true,
-  "projectFilePath": "C:\\Users\\hannh\\source\\repos\\BrokerApi\\MainWebAPI\\MainWebAPI.csproj",
+  "projectFilePath": "C:\\Users\\hannh\\OneDrive\\Documents\\GitHub\\.NetTradingBackend\\MainWebAPI\\MainWebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hannh\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\hannh\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

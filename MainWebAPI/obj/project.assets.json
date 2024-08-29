@@ -7480,11 +7480,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hannh\\source\\repos\\BrokerApi\\MainWebAPI\\MainWebAPI.csproj",
+      "projectUniqueName": "C:\\Users\\hannh\\OneDrive\\Documents\\GitHub\\.NetTradingBackend\\MainWebAPI\\MainWebAPI.csproj",
       "projectName": "MainWebAPI",
-      "projectPath": "C:\\Users\\hannh\\source\\repos\\BrokerApi\\MainWebAPI\\MainWebAPI.csproj",
+      "projectPath": "C:\\Users\\hannh\\OneDrive\\Documents\\GitHub\\.NetTradingBackend\\MainWebAPI\\MainWebAPI.csproj",
       "packagesPath": "C:\\Users\\hannh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hannh\\source\\repos\\BrokerApi\\MainWebAPI\\obj\\",
+      "outputPath": "C:\\Users\\hannh\\OneDrive\\Documents\\GitHub\\.NetTradingBackend\\MainWebAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

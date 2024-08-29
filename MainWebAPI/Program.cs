@@ -56,16 +56,16 @@ namespace MainWebAPI
                                       .AllowCredentials();
                                   });
             });
-            builder.Services.AddStackExchangeRedisCache(options =>
-            {
-                options.Configuration = "localhost:6379"; // Your Redis server configuration
-                
-            });
+            // builder.Services.AddStackExchangeRedisCache(options =>
+            // {
+            //     options.Configuration = "localhost:6379"; // Your Redis server configuration
+
+            // });
             builder.Services.AddLogging();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
-            
+
 
             var app = builder.Build();
 
@@ -81,7 +81,7 @@ namespace MainWebAPI
                 app.UseSwaggerUI();
             }
 
-           app.UseHttpsRedirection();
+            app.UseHttpsRedirection();
             app.UseAuthentication();
             app.UseAuthorization();
             app.UseResponseCaching();
