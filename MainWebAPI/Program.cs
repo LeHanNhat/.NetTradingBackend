@@ -11,7 +11,7 @@ namespace MainWebAPI
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
-            // builder.WebHost.UseUrls("http://10.60.250.239");
+            
             builder.WebHost.ConfigureKestrel(options =>
             {
                 options.Listen(IPAddress.Any, 7125, listenOptions =>
@@ -37,12 +37,12 @@ namespace MainWebAPI
                 options.LogoutPath = "/api/account/logout";
                 options.SlidingExpiration = true;
             });
-            // Add services to the container.
+            
             builder.Services.AddHttpClient();
             builder.Services.AddControllers()
                     .AddJsonOptions(options =>
                     {
-                        options.JsonSerializerOptions.WriteIndented = true; // Pretty print JSON
+                        options.JsonSerializerOptions.WriteIndented = true; 
                     });
             builder.Services.AddCors(options =>
             {
@@ -56,28 +56,19 @@ namespace MainWebAPI
                                       .AllowCredentials();
                                   });
             });
-            // builder.Services.AddStackExchangeRedisCache(options =>
-            // {
-            //     options.Configuration = "localhost:6379"; // Your Redis server configuration
-
-            // });
+            
             builder.Services.AddLogging();
-            // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+           
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
 
             var app = builder.Build();
 
-            // Configure the HTTP request pipeline.
+           
             if (app.Environment.IsDevelopment())
             {
                 app.UseSwagger();
-                //app.UseSwaggerUI(c =>
-                //{
-                //    c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
-                //    c.RoutePrefix = string.Empty; // This makes Swagger UI the root of the site
-                //});
                 app.UseSwaggerUI();
             }
 
@@ -85,7 +76,7 @@ namespace MainWebAPI
             app.UseAuthentication();
             app.UseAuthorization();
             app.UseResponseCaching();
-            app.UseCors("CORS_POLICY"); // Use CORS policy
+            app.UseCors("CORS_POLICY");
             app.MapControllers();
 
             app.Run();

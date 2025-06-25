@@ -1,11 +1,1 @@
-{
-  "Version": 1,
-  "Hash": "ZEG7g9oakMIv8XoaJwumt9aMXGjTEauX0HqXb8jR/0M=",
-  "Source": "MainWebAPI",
-  "BasePath": "_content/MainWebAPI",
-  "Mode": "Default",
-  "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
-}
+{"Version":1,"Hash":"V4NHpFLEbYy/i6kH3WitB80xvChh4UpBWu5almfnqpk=","Source":"MainWebAPI","BasePath":"_content/MainWebAPI","Mode":"Default","ManifestType":"Build","ReferencedProjectsConfiguration":[],"DiscoveryPatterns":[],"Assets":[],"Endpoints":[]}

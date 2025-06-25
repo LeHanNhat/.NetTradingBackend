@@ -7475,19 +7475,19 @@
   },
   "packageFolders": {
     "C:\\Users\\hannh\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hannh\\OneDrive\\Documents\\GitHub\\.NetTradingBackend\\MainWebAPI\\MainWebAPI.csproj",
+      "projectUniqueName": "D:\\CapStone\\project\\Trading(.Net)\\.NetTradingBackend\\MainWebAPI\\MainWebAPI.csproj",
       "projectName": "MainWebAPI",
-      "projectPath": "C:\\Users\\hannh\\OneDrive\\Documents\\GitHub\\.NetTradingBackend\\MainWebAPI\\MainWebAPI.csproj",
+      "projectPath": "D:\\CapStone\\project\\Trading(.Net)\\.NetTradingBackend\\MainWebAPI\\MainWebAPI.csproj",
       "packagesPath": "C:\\Users\\hannh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hannh\\OneDrive\\Documents\\GitHub\\.NetTradingBackend\\MainWebAPI\\obj\\",
+      "outputPath": "D:\\CapStone\\project\\Trading(.Net)\\.NetTradingBackend\\MainWebAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
         "C:\\Users\\hannh\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7517,7 +7517,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net8.0": {
@@ -7609,30 +7610,8 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1603",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Microsoft.Win32.Registry 4.5.0 depends on System.Security.AccessControl (>= 4.5.0) but System.Security.AccessControl 4.5.0 was not found. An approximate best match of System.Security.AccessControl 4.7.0 was resolved.",
-      "libraryId": "System.Security.AccessControl",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    },
-    {
-      "code": "NU1603",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "System.Security.Cryptography.Xml 4.5.0 depends on System.Security.Permissions (>= 4.5.0) but System.Security.Permissions 4.5.0 was not found. An approximate best match of System.Security.Permissions 4.7.0 was resolved.",
-      "libraryId": "System.Security.Permissions",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    }
-  ]
+  }
 }

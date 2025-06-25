@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iDUt2W+LNnU=",
+  "dgSpecHash": "c8QxkSxPwa4=",
   "success": true,
-  "projectFilePath": "C:\\Users\\hannh\\OneDrive\\Documents\\GitHub\\.NetTradingBackend\\MainWebAPI\\MainWebAPI.csproj",
+  "projectFilePath": "D:\\CapStone\\project\\Trading(.Net)\\.NetTradingBackend\\MainWebAPI\\MainWebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hannh\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\hannh\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
@@ -159,26 +159,5 @@
     "C:\\Users\\hannh\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512",
     "C:\\Users\\hannh\\.nuget\\packages\\websocketsharp-netstandard\\1.0.1\\websocketsharp-netstandard.1.0.1.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1603",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Microsoft.Win32.Registry 4.5.0 depends on System.Security.AccessControl (>= 4.5.0) but System.Security.AccessControl 4.5.0 was not found. An approximate best match of System.Security.AccessControl 4.7.0 was resolved.",
-      "libraryId": "System.Security.AccessControl",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    },
-    {
-      "code": "NU1603",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "System.Security.Cryptography.Xml 4.5.0 depends on System.Security.Permissions (>= 4.5.0) but System.Security.Permissions 4.5.0 was not found. An approximate best match of System.Security.Permissions 4.7.0 was resolved.",
-      "libraryId": "System.Security.Permissions",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    }
-  ]
+  "logs": []
 }
